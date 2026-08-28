@@ -1,0 +1,43 @@
+[
+  {
+    "id": "preset_965805fb-7765-487e-937d-0c1f6a65bb2a",
+    "name": "NAMF OAuth 2.0",
+    "auth": {
+      "type": "oauth2",
+      "presetId": "",
+      "bearer": {
+        "tokenRef": "",
+        "prefix": "Bearer"
+      },
+      "basic": {
+        "username": "",
+        "passwordRef": ""
+      },
+      "apiKey": {
+        "name": "",
+        "location": "header",
+        "valueRef": ""
+      },
+      "oauth2": {
+        "grant": "authorization_code",
+        "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+        "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+        "refreshUrl": "",
+        "clientId": "frontend-client",
+        "clientSecretRef": "",
+        "scopes": "profile openid",
+        "audience": "",
+        "usePkce": true,
+        "redirectMode": "builtin",
+        "redirectUri": "http://localhost:8080/authorized",
+        "loopbackPort": 8080,
+        "clientAuth": "body",
+        "headerPrefix": "Bearer",
+        "extraAuthParams": [],
+        "extraTokenParams": [],
+        "tokenRef": "sec_abeb2741-300a-477a-995b-aa83432da29d",
+        "autoRefresh": true
+      }
+    }
+  }
+]

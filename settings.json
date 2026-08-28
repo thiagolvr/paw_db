@@ -1,0 +1,7 @@
+{
+  "defaultTimeoutMs": 30000,
+  "followRedirects": true,
+  "maxRedirects": 10,
+  "rejectUnauthorized": true,
+  "historyLimit": 500
+}

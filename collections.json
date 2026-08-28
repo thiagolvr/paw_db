@@ -1,0 +1,426 @@
+{
+  "workspaces": [
+    {
+      "id": "ws_9365513f-8819-4de7-95e2-603fa62bb669",
+      "name": "Personal",
+      "order": 0
+    }
+  ],
+  "collections": [
+    {
+      "id": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "workspaceId": "ws_9365513f-8819-4de7-95e2-603fa62bb669",
+      "name": "My Project",
+      "auth": {
+        "type": "none",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 0
+    },
+    {
+      "id": "col_a65cf059-dd67-48b5-b9f9-9f42767fd4c2",
+      "workspaceId": "ws_9365513f-8819-4de7-95e2-603fa62bb669",
+      "name": "Teste 2",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 1
+    }
+  ],
+  "folders": [
+    {
+      "id": "fld_d1682fbb-5108-42fc-ace0-68f352c5933a",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Getting Started",
+      "parentId": null,
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "loopback",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 0
+    },
+    {
+      "id": "fld_54606fc5-3918-4693-ab1b-202460ae42ac",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Teste 3",
+      "parentId": "fld_d1682fbb-5108-42fc-ace0-68f352c5933a",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 1
+    }
+  ],
+  "requests": [
+    {
+      "id": "req_b9cbf685-229d-42c2-a512-385e4264ccfe",
+      "name": "Example: httpbin JSON",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://httpbin.org/json",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "loopback",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_d1682fbb-5108-42fc-ace0-68f352c5933a",
+      "tags": [],
+      "favorite": false,
+      "order": 0,
+      "createdAt": 1787878409063,
+      "updatedAt": 1787878409063
+    },
+    {
+      "id": "req_ea264a71-eabb-4ebb-87bc-e65ec67b32ce",
+      "name": "Cities Search",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://namf.tdsc.dev/api/catalog/public/v1/cities-search/_search?query=São",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_bec5e53d-0eab-4048-9556-7da9b4c0db19",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "json",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "preset_965805fb-7765-487e-937d-0c1f6a65bb2a",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://localhost:8080/authorized",
+          "loopbackPort": 8080,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "sec_abeb2741-300a-477a-995b-aa83432da29d",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": null,
+      "tags": [],
+      "favorite": false,
+      "order": 1787878650986,
+      "createdAt": 1787878650986,
+      "updatedAt": 1787918795352
+    },
+    {
+      "id": "req_92f1ddc5-6d16-421f-b3c8-59457c8ae325",
+      "name": "http",
+      "kind": "rest",
+      "method": "GET",
+      "url": "http",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_a65cf059-dd67-48b5-b9f9-9f42767fd4c2",
+      "folderId": null,
+      "tags": [],
+      "favorite": false,
+      "order": 1787886643374,
+      "createdAt": 1787886643374,
+      "updatedAt": 1787886920425
+    }
+  ],
+  "activeWorkspaceId": "ws_9365513f-8819-4de7-95e2-603fa62bb669"
+}

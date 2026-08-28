@@ -1,0 +1,24 @@
+{
+  "environments": [
+    {
+      "id": "env_c8c8f43c-1f78-474c-b3d8-e07ff86f472c",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Local",
+      "variables": []
+    },
+    {
+      "id": "env_16a4cf26-aabc-4830-b2ac-08b906f30531",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Staging",
+      "variables": []
+    },
+    {
+      "id": "env_edd3b1ae-fee2-4387-baaf-55a97d664b0a",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Production",
+      "variables": []
+    }
+  ],
+  "globals": [],
+  "activeByCollection": {}
+}
