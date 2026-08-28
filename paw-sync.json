@@ -1,17 +1,18 @@
 {
   "format": "paw-sync",
   "version": 2,
-  "revision": "e6628e75-4703-4dee-8c96-9d8a10b1e3aa",
-  "updatedAt": "2026-08-28T15:39:38.327Z",
+  "revision": "fcd63013-6d58-40fd-ba24-e391c689c20d",
+  "updatedAt": "2026-08-28T16:11:20.805Z",
   "device": {
     "id": "f0409990-4736-4bfc-b025-628b401780aa",
     "name": "Thiagos-MacBook-Air.local"
   },
-  "contentHash": "8b8530c4fff9f85551ee119d0d420f90",
+  "contentHash": "47715ff7319c28adade8a6562916cb4b",
   "files": [
     "collections.json",
     "environments.json",
     "auth-presets.json",
-    "settings.json"
+    "settings.json",
+    "identity.json"
   ]
 }

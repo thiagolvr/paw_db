@@ -10,7 +10,7 @@
     {
       "id": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
       "workspaceId": "ws_9365513f-8819-4de7-95e2-603fa62bb669",
-      "name": "My Project",
+      "name": "NAMF",
       "auth": {
         "type": "none",
         "presetId": "",
@@ -95,6 +95,182 @@
     }
   ],
   "folders": [
+    {
+      "id": "fld_561cbf12-657b-4da0-9094-c369009baf74",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Schedule",
+      "parentId": "fld_9f3c9843-50bd-4926-9f04-2681fce8deba",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 0
+    },
+    {
+      "id": "fld_62d2ff76-51bb-4f4b-9acf-7e6214f1c33d",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Import",
+      "parentId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 0
+    },
+    {
+      "id": "fld_71b780ef-c65a-4eac-bf45-e5ac5eef59d7",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Form",
+      "parentId": "fld_6e1e9a3f-5152-4cda-9ae3-0529d159cb84",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 0
+    },
+    {
+      "id": "fld_92277d3d-5d97-41cd-91ec-ae3d08490b58",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Organization",
+      "parentId": "fld_bb91dc62-44dc-45b6-902d-e60f25e1a603",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 0
+    },
     {
       "id": "fld_d1682fbb-5108-42fc-ace0-68f352c5933a",
       "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
@@ -182,9 +358,689 @@
         }
       },
       "order": 1
+    },
+    {
+      "id": "fld_b0c7c391-5213-4236-a929-c541a565c265",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Field",
+      "parentId": "fld_6e1e9a3f-5152-4cda-9ae3-0529d159cb84",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 4
+    },
+    {
+      "id": "fld_6071e703-b9fa-4ebf-8d28-781069b74239",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Retailer",
+      "parentId": "fld_9f3c9843-50bd-4926-9f04-2681fce8deba",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 7
+    },
+    {
+      "id": "fld_6fc2cc35-4a58-47dc-b82e-282444581abc",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "City",
+      "parentId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 8
+    },
+    {
+      "id": "fld_e6142773-a9f0-4bdf-9b96-094df78d661b",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "searchh",
+      "parentId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 11
+    },
+    {
+      "id": "fld_fedc0679-e26c-4393-b145-6d597d3c801b",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Category",
+      "parentId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 16
+    },
+    {
+      "id": "fld_bb91dc62-44dc-45b6-902d-e60f25e1a603",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Administration",
+      "parentId": null,
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 1787933385795
+    },
+    {
+      "id": "fld_0ba65c1b-fab3-4692-8e84-1782708ab68a",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Authorization",
+      "parentId": null,
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 1787933394077
+    },
+    {
+      "id": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Catalog",
+      "parentId": null,
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 1787933403760
+    },
+    {
+      "id": "fld_a596460e-ca31-4ae1-acaf-8c48d7c68fd1",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Elasticsearch",
+      "parentId": null,
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 1787933430680
+    },
+    {
+      "id": "fld_9f3c9843-50bd-4926-9f04-2681fce8deba",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Logistics",
+      "parentId": null,
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 1787933440276
+    },
+    {
+      "id": "fld_43d96d5d-f182-41b1-bab8-e2f00e51fc1b",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Notification",
+      "parentId": null,
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 1787933448844
+    },
+    {
+      "id": "fld_6e1e9a3f-5152-4cda-9ae3-0529d159cb84",
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "name": "Orders",
+      "parentId": null,
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 1787933457162
     }
   ],
   "requests": [
+    {
+      "id": "req_46b3bae9-107b-4566-a1a5-0057ce838c78",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "PUT",
+      "url": "{{auth_local}}/v1/users/me",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"Admin\",\n    \"media_id\": \"89ebc33e-85f5-4a1c-b290-475a05a4aff6\",\n    \"description\": \"Descrição do Admin testada via tela\"\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "{{auth_local}}/oauth2/authorize",
+          "tokenUrl": "{{auth_local}}/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_0ba65c1b-fab3-4692-8e84-1782708ab68a",
+      "tags": [],
+      "favorite": false,
+      "order": 0,
+      "createdAt": 1787933394077,
+      "updatedAt": 1787933394077
+    },
+    {
+      "id": "req_90deb084-1207-4016-92c3-5c90bac9c59c",
+      "name": "CATALOG",
+      "kind": "rest",
+      "method": "GET",
+      "url": "http://elastic:changeme@localhost:9200/catalog/_search",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"size\": 10000\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_a596460e-ca31-4ae1-acaf-8c48d7c68fd1",
+      "tags": [],
+      "favorite": false,
+      "order": 0,
+      "createdAt": 1787933430680,
+      "updatedAt": 1787933430680
+    },
     {
       "id": "req_b9cbf685-229d-42c2-a512-385e4264ccfe",
       "name": "Example: httpbin JSON",
@@ -260,6 +1116,3765 @@
       "order": 0,
       "createdAt": 1787878409063,
       "updatedAt": 1787878409063
+    },
+    {
+      "id": "req_bc949acd-25ca-4b8e-b20c-4da7eba8c2b1",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_43d96d5d-f182-41b1-bab8-e2f00e51fc1b",
+      "tags": [],
+      "favorite": false,
+      "order": 0,
+      "createdAt": 1787933448844,
+      "updatedAt": 1787933448844
+    },
+    {
+      "id": "req_14a8b9c7-b3b9-4eef-bf20-bef58d9f34ce",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "{{auth_local}}/v1/users/b91a9ce3-03df-4bc1-ba93-2fd71343d77f",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "{{auth_local}}/oauth2/authorize",
+          "tokenUrl": "{{auth_local}}/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_0ba65c1b-fab3-4692-8e84-1782708ab68a",
+      "tags": [],
+      "favorite": false,
+      "order": 1,
+      "createdAt": 1787933394077,
+      "updatedAt": 1787933394077
+    },
+    {
+      "id": "req_216a91ca-3b1b-4529-a820-6924a8435fa2",
+      "name": "List",
+      "kind": "rest",
+      "method": "GET",
+      "url": "{{orders_local}}/v1/form",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_d5009e3f-4a68-4829-8609-846d64499a77",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_71b780ef-c65a-4eac-bf45-e5ac5eef59d7",
+      "tags": [],
+      "favorite": false,
+      "order": 1,
+      "createdAt": 1787933457162,
+      "updatedAt": 1787933457162
+    },
+    {
+      "id": "req_70687bb5-c6ee-449b-81b5-e91de7a3a5ef",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_43d96d5d-f182-41b1-bab8-e2f00e51fc1b",
+      "tags": [],
+      "favorite": false,
+      "order": 1,
+      "createdAt": 1787933448844,
+      "updatedAt": 1787933448844
+    },
+    {
+      "id": "req_7a51f17d-ec8e-43e2-99b1-8bcdd647591d",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{administration_local}}/v1/organizations",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"tesssssssss\",\n    \"description\": \"Empresa de tecnologia e inovação\",                                 \n    \"country\": \"BRASIL\",\n    \"administrative_level1\": {\n        \"label\": \"Estado\",\n        \"short_label\": \"UF\"\n    },\n    \"language\": \"pt-BR\",\n    \"timezones\": [\n        \"America/Sao_Paulo\"\n    ],\n    \"url\": \"https://moura.com.br\",\n    \"media_id\": \"bf5f1558-4522-48b5-a405-daa4d213537e\"\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_92277d3d-5d97-41cd-91ec-ae3d08490b58",
+      "tags": [],
+      "favorite": false,
+      "order": 1,
+      "createdAt": 1787933385795,
+      "updatedAt": 1787933385795
+    },
+    {
+      "id": "req_cc114bdd-3f6e-41c3-9890-447fb3167d40",
+      "name": "CATALOG",
+      "kind": "rest",
+      "method": "GET",
+      "url": "http://elastic:changeme@localhost:9200/catalog/_search",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"size\": 10000,\n    \"query\": {\n        \"bool\": {\n            \"filter\": [\n                {\n                    \"term\": {\n                        \"organization_id\": {\n                            \"value\": \"a9e55b85-b5bb-4c1d-af13-1c73267cae26\"\n                        }\n                    }\n                },\n                {\n                    \"nested\": {\n                        \"path\": \"related_items\",\n                        \"query\": {\n                            \"terms\": {\n                                \"related_items.relationship_id\": [\n                                    \"019d2609-7f69-7af7-8eab-635c1c899254\"\n                                ]\n                            }\n                        }\n                    }\n                }\n            ],\n            \"must\": [\n                {\n                    \"match_all\": {}\n                }\n            ]\n        }\n    }\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_a596460e-ca31-4ae1-acaf-8c48d7c68fd1",
+      "tags": [],
+      "favorite": false,
+      "order": 1,
+      "createdAt": 1787933430680,
+      "updatedAt": 1787933430680
+    },
+    {
+      "id": "req_d05a8dfe-af77-42c1-9162-8fb3a76dd377",
+      "name": "pro",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{catalog_local}}/v1/import/product",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_1ba25cb8-ff1d-473d-9b1f-37ccfd838942",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        },
+        {
+          "id": "kv_cf727488-16f2-4fae-9ad0-63c65093e3da",
+          "enabled": true,
+          "key": "Accept-Language",
+          "value": "pt-BR",
+          "description": ""
+        },
+        {
+          "id": "kv_2a5f8729-2529-42f8-a45a-8e3f1dca6d56",
+          "enabled": false,
+          "key": "Content-Type",
+          "value": "multipart/form-data",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "multipart",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [
+          {
+            "id": "mp_c28fd9c6-1639-42c4-99ae-d3ec9c2ea4c2",
+            "enabled": true,
+            "key": "file",
+            "kind": "file",
+            "value": "",
+            "filePath": "/home/tdsccompany/Música/product_20260325_144311.csv",
+            "contentType": ""
+          }
+        ],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_62d2ff76-51bb-4f4b-9acf-7e6214f1c33d",
+      "tags": [],
+      "favorite": false,
+      "order": 1,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_e3c724e4-6245-4e39-99b9-da327df69575",
+      "name": "Create Schedule Standart",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{base_local}}/v1/schedule",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_198fc847-5e28-425b-876e-35b6db81c3ea",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"Ceara\",\n    \"type\": \"STANDARD\",\n    \"start_time\": \"04:00\",\n    \"end_time\": \"17:00\",\n    \"coverage\": {\n        \"country_level\": false,\n        \"administrative_level1\": [\n            \"Ceará/CE\"\n        ]\n    },\n    \"days_of_week\": [\n        \"MONDAY\",\n        \"SUNDAY\"\n    ]\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_561cbf12-657b-4da0-9094-c369009baf74",
+      "tags": [],
+      "favorite": false,
+      "order": 1,
+      "createdAt": 1787933440276,
+      "updatedAt": 1787933440276
+    },
+    {
+      "id": "req_0000c50b-c22c-4e2e-b219-94beebff804e",
+      "name": "Create",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{orders_local}}/v1/form",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_0eac519f-2ae9-4443-a171-3cdace5927b9",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        },
+        {
+          "id": "kv_2beb60ba-0ed5-41a2-82a7-fbc773184f17",
+          "enabled": true,
+          "key": "Accept-Language",
+          "value": "es-ES",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"Formulário de Pedido Online\",\n    \"description\": \"Formulário para pedidos de delivery\",\n    \"customer_data\": {\n        \"display_name\": \"Dados do Cliente\",\n        \"field_references\": [\n            {\n                \"field_definition_id\": \"5b912231-af9f-49c1-bd88-c65c9addea25\",\n                \"display_name\": \"Nome Completo\",\n                \"required\": true\n            },\n            {\n                \"field_definition_id\": \"0b195de9-7c9d-4a59-9499-0d2102afc896\",\n                \"display_name\": \"Telefone\",\n                \"required\": false\n            }\n        ]\n    },\n    \"address_data\": {\n        \"display_name\": \"Endereço de Entrega\",\n        \"field_references\": [\n            {\n                \"field_definition_id\": \"1a9be1ce-474b-4678-8f7d-c3c7887ec062\",\n                \"display_name\": \"Endereço\",\n                \"required\": true\n            },\n            {\n                \"field_definition_id\": \"2723c2e3-319a-4bb0-8eb2-32c3b3f81f80\",\n                \"display_name\": \"Complemento\",\n                \"required\": false\n            }\n        ]\n    },\n    \"extraData\": {\n        \"display_name\": \"Informações Adicionais\",\n        \"field_references\": [\n            {\n                \"field_definition_id\": \"d71831f9-d5ec-4988-a48e-e7b2c87afd9a\",\n                \"display_name\": \"Observações\",\n                \"required\": false\n            }\n        ]\n    },\n    \"include_online_payment_methods\": true,\n    \"include_offline_payment_methods\": false\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_71b780ef-c65a-4eac-bf45-e5ac5eef59d7",
+      "tags": [],
+      "favorite": false,
+      "order": 2,
+      "createdAt": 1787933457162,
+      "updatedAt": 1787933457162
+    },
+    {
+      "id": "req_50fc9461-2d15-4e59-b41e-20fbf16b7aa7",
+      "name": "Cities",
+      "kind": "rest",
+      "method": "GET",
+      "url": "http://elastic:changeme@localhost:9200/cities/_mapping",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_a596460e-ca31-4ae1-acaf-8c48d7c68fd1",
+      "tags": [],
+      "favorite": false,
+      "order": 2,
+      "createdAt": 1787933430680,
+      "updatedAt": 1787933430680
+    },
+    {
+      "id": "req_bc8f9066-09d6-4d9e-bc8c-3ca32edd7256",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "{{administration_local}}/v1/organizations/365d657d-1eea-4cf4-8ec8-aa4a74e26c9b",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "{{auth_local}}/oauth2/authorize",
+          "tokenUrl": "{{auth_local}}/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_92277d3d-5d97-41cd-91ec-ae3d08490b58",
+      "tags": [],
+      "favorite": false,
+      "order": 2,
+      "createdAt": 1787933385797,
+      "updatedAt": 1787933385797
+    },
+    {
+      "id": "req_c5c8ab28-0e32-434c-b41e-b1d867ff121d",
+      "name": "Create Schedule Standart Copy",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{base_local}}/v1/schedule",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"Nomeasdas asd \",\n    \"description\": \" asd asd\",\n    \"type\": \"STANDARD\",\n    \"days_of_week\": [\n        \"MONDAY\"\n    ],\n    \"intervals\": [\n        {\n            \"start_time\": \"12:00:00\",\n            \"end_time\": \"13:00:00\"\n        }\n    ],\n    \"coverage\": {\n        \"country_level\": true,\n        \"administrative_level1\": [],\n        \"administrative_level2\": [],\n        \"cities\": []\n    },\n    \"start_date\": \"08:00:00\",\n    \"end_date\": \"18:00:00\"\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_561cbf12-657b-4da0-9094-c369009baf74",
+      "tags": [],
+      "favorite": false,
+      "order": 2,
+      "createdAt": 1787933440276,
+      "updatedAt": 1787933440276
+    },
+    {
+      "id": "req_daecac86-1eca-4e94-ae9d-edbded3e73ad",
+      "name": "Export Product",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{catalog_local}}/v1/export/product",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_2b95558e-cffb-4d00-88b3-5e477c24f567",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        },
+        {
+          "id": "kv_168ce32c-ae71-4460-939e-39fd4bb11492",
+          "enabled": true,
+          "key": "Accept-Language",
+          "value": "es-ES",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_62d2ff76-51bb-4f4b-9acf-7e6214f1c33d",
+      "tags": [],
+      "favorite": false,
+      "order": 2,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_1518833a-8878-4b70-a41d-baa6bc527aad",
+      "name": "Create Schedule Exceptional",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{base_local}}/v1/schedule",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "json",
+        "json": "{\n  \"name\": \"TESTE 1\",\n  \"type\": \"EXCEPTIONAL\",\n  \"coverage\": {\n    \"country_level\": false,\n    \"administrative_level1\": [\n      \"Pernambuco/PE\"\n    ]\n  },\n  \"closed\":true,\n  \"period\": {\n    \"start\": \"2025-11-20\",\n    \"end\": \"2025-11-20\"\n  }\n}\n",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_561cbf12-657b-4da0-9094-c369009baf74",
+      "tags": [],
+      "favorite": false,
+      "order": 3,
+      "createdAt": 1787933440276,
+      "updatedAt": 1787933440276
+    },
+    {
+      "id": "req_7ff04a1c-8f4c-467c-a9d1-58676f46d060",
+      "name": "Create Copy",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{orders_dev}}/v1/form",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_56ac7272-9aba-41e0-9309-b53e761e28e1",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        },
+        {
+          "id": "kv_b1ace378-6f05-4840-b41e-0f0c76af4e8d",
+          "enabled": true,
+          "key": "Accept-Language",
+          "value": "es-ES",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"Moura Fácil\",\n    \"description\": \"Formulário de pedido Moura Fácil\",\n    \"customer_data\": {\n        \"display_name\": \"Dados Pessoais do Cliente\",\n        \"field_references\": [\n            {\n                \"field_definition_id\": \"a0c662db-9ad9-4ea8-a16f-2f8d2e183a7d\",\n                \"display_name\": \"Nome\",\n                \"required\": true\n            },\n            {\n                \"field_definition_id\": \"2407d401-99ad-4fc7-949a-41258a5c6a7c\",\n                \"display_name\": \"Telefone\",\n                \"required\": true\n            },\n            {\n                \"field_definition_id\": \"27b89eed-5535-422c-a96c-9824c868511b\",\n                \"display_name\": \"Email\",\n                \"required\": true\n            }\n        ]\n    },\n    \"address_data\": {\n        \"display_name\": \"Dados de Endereço\",\n        \"field_references\": [\n            {\n                \"field_definition_id\": \"2ea97802-5e48-4d75-bbf8-07deb97ff13e\",\n                \"display_name\": \"Endereço\",\n                \"required\": true\n            },\n            {\n                \"field_definition_id\": \"1790d6be-7813-4ad3-b91d-fd9d9058cca4\",\n                \"display_name\": \"Número\",\n                \"required\": true\n            },\n            {\n                \"field_definition_id\": \"a6b59c1a-39d2-452a-8625-63c14573d166\",\n                \"display_name\": \"Bairro\",\n                \"required\": true\n            },\n            {\n                \"field_definition_id\": \"8ad23c89-c705-4415-a7a0-4dcfbdffde8d\",\n                \"display_name\": \"Complemento\",\n                \"required\": false\n            }\n        ]\n    },\n    \"extra_data\": [\n        {\n            \"display_name\": \"Desconto\",\n            \"field_references\": [\n                {\n                    \"field_definition_id\": \"a0c662db-9ad9-4ea8-a16f-2f8d2e183a7d\",\n                    \"display_name\": \"Voucher\",\n                    \"required\": false\n                }\n            ]\n        }\n    ],\n    \"include_offline_payment_methods\": true,\n    \"include_online_payment_methods\": false\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_71b780ef-c65a-4eac-bf45-e5ac5eef59d7",
+      "tags": [],
+      "favorite": false,
+      "order": 3,
+      "createdAt": 1787933457162,
+      "updatedAt": 1787933457162
+    },
+    {
+      "id": "req_fd7529b8-0118-4321-abc2-ace334572698",
+      "name": "Export Product Copy",
+      "kind": "rest",
+      "method": "GET",
+      "url": "localhost:8082/v1/import/product",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_25ca839b-5121-4b1c-b42e-e1a8d4a7268d",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        },
+        {
+          "id": "kv_250b96ec-8c86-497a-8278-0143d19dc337",
+          "enabled": true,
+          "key": "Accept-Language",
+          "value": "pt-BR",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "http://localhost:8080/oauth2/authorize",
+          "tokenUrl": "http://localhost:8080/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_62d2ff76-51bb-4f4b-9acf-7e6214f1c33d",
+      "tags": [],
+      "favorite": false,
+      "order": 3,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_9187c934-3412-4512-b0b7-565398481204",
+      "name": "Create Schedule Exceptional Copy",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{base_local}}/v1/schedule",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "json",
+        "json": "{\n  \"name\": \"TESTE 2\",\n  \"type\": \"EXCEPTIONAL\",\n  \"coverage\": {\n    \"country_level\": false,\n    \"cities\": [\n      \"019a9d39-4863-7ed4-9fdf-524b55c6d11c\"\n    ]\n  },\n  \"closed\":true,\n  \"period\": {\n    \"start\": \"2025-11-24\",\n    \"end\": \"2025-11-24\"\n  }\n}\n",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_561cbf12-657b-4da0-9094-c369009baf74",
+      "tags": [],
+      "favorite": false,
+      "order": 4,
+      "createdAt": 1787933440276,
+      "updatedAt": 1787933440276
+    },
+    {
+      "id": "req_b3a2cfef-55ce-4403-bf04-753e85dfa824",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_62d2ff76-51bb-4f4b-9acf-7e6214f1c33d",
+      "tags": [],
+      "favorite": false,
+      "order": 4,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_1d5374de-fc3f-42b7-9f6b-5229fa72357c",
+      "name": "Create Schedule Exceptional Copy 2",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{logistics_dev}}/v1/schedule",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_3341f8c7-97b6-407f-aef3-7e98375299a8",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"Feriado para o Natal no acre\",\n    \"description\": \"Teste para validação de unidade administrativa\",\n    \"type\": \"EXCEPTIONAL\",\n    \"closed\": false,\n    \"period\": {\n        \"start_date\": \"2025-12-25T03:00:00.000Z\",\n        \"end_date\": \"2025-12-25T03:00:00.000Z\"\n    },\n    \"intervals\": [],\n    \"coverage\": {\n        \"country_level\": false,\n        \"administrative_level1\": [\n            \"Acre/AC\"\n        ],\n        \"administrative_level2\": [],\n        \"cities\": []\n    },\n    \"start_time\": \"10:00\",\n    \"end_time\": \"17:00\"\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_561cbf12-657b-4da0-9094-c369009baf74",
+      "tags": [],
+      "favorite": false,
+      "order": 5,
+      "createdAt": 1787933440276,
+      "updatedAt": 1787933440276
+    },
+    {
+      "id": "req_a083ea6b-1161-43bd-907e-d009b36d0483",
+      "name": "Download",
+      "kind": "rest",
+      "method": "GET",
+      "url": "{{catalog_local}}/v1/batch/019d2563-84e6-7e1c-8ccb-c12250ba5dc2/download",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_ea1d25ab-5e16-44a6-bdce-132daa2c9867",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "{{auth_dev}}/oauth2/authorize",
+          "tokenUrl": "{{auth_dev}}/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_62d2ff76-51bb-4f4b-9acf-7e6214f1c33d",
+      "tags": [],
+      "favorite": false,
+      "order": 5,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_fd8bd4d1-b5c2-4220-a442-0da6410a7472",
+      "name": "Create",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{orders_local}}/v1/field",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_59ebf1ff-16ab-45c0-87cb-a264c018affd",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        },
+        {
+          "id": "kv_e3e16b7e-bbf2-4d25-b67c-b925c72fc97f",
+          "enabled": false,
+          "key": "Accept-Language",
+          "value": "pt-BR",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "json",
+        "json": "  {\n    \"name\": \"CNPJ\",\n    \"type\": \"TEXT\",\n    \"validation\": \"CNPJ\",\n    \"listValues\": null\n  }\n",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_b0c7c391-5213-4236-a929-c541a565c265",
+      "tags": [],
+      "favorite": false,
+      "order": 5,
+      "createdAt": 1787933457162,
+      "updatedAt": 1787933457162
+    },
+    {
+      "id": "req_a49848bb-01bc-42d1-8efe-e45f50db8f82",
+      "name": "Listagem de bacth",
+      "kind": "rest",
+      "method": "GET",
+      "url": "{{catalog_local}}/v1/export/product",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_d0347c15-3899-491a-b9a9-969bce495acb",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_62d2ff76-51bb-4f4b-9acf-7e6214f1c33d",
+      "tags": [],
+      "favorite": false,
+      "order": 6,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_a5968a9c-a338-4e65-ba1c-91e24e6599f6",
+      "name": "Create Copy",
+      "kind": "rest",
+      "method": "PUT",
+      "url": "{{orders_local}}/v1/field/d71831f9-d5ec-4988-a48e-e7b2c87afd9a",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_c6535163-6467-4f6f-a9f3-308cb9b73f66",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        },
+        {
+          "id": "kv_399d50d6-d06c-4b22-a3d9-da6c0d4c6e4e",
+          "enabled": false,
+          "key": "Accept-Language",
+          "value": "pt-BR",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "json",
+        "json": "  {\n    \"name\": \"Observacoes\",\n    \"type\": \"TEXT\",\n    \"validation\": null,\n    \"listValues\": null\n  }\n",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_b0c7c391-5213-4236-a929-c541a565c265",
+      "tags": [],
+      "favorite": false,
+      "order": 6,
+      "createdAt": 1787933457162,
+      "updatedAt": 1787933457162
+    },
+    {
+      "id": "req_d62d0ad0-016f-44da-82b7-55022352019b",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "{{base_local}}/v1/schedule",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "id": "kv_0f9b02a8-2a11-44df-ba02-ec2eceb02957",
+          "enabled": true,
+          "key": "search",
+          "value": "Russas",
+          "description": ""
+        }
+      ],
+      "headers": [
+        {
+          "id": "kv_7a0c5b05-eca5-4f6b-9509-ec31838f3f9b",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_561cbf12-657b-4da0-9094-c369009baf74",
+      "tags": [],
+      "favorite": false,
+      "order": 6,
+      "createdAt": 1787933440276,
+      "updatedAt": 1787933440276
+    },
+    {
+      "id": "req_aaa29d60-02cb-4d0d-885a-9ee89f06f40e",
+      "name": "List Validation",
+      "kind": "rest",
+      "method": "GET",
+      "url": "{{orders_local}}/v1/field/validation",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_b0c7c391-5213-4236-a929-c541a565c265",
+      "tags": [],
+      "favorite": false,
+      "order": 7,
+      "createdAt": 1787933457162,
+      "updatedAt": 1787933457162
+    },
+    {
+      "id": "req_bebdafcd-6f34-4f98-9510-f8367b78b41f",
+      "name": "{{catalog_local}}/v1/batch/019b22f1-b981-77e8-8698-79d2fcbf656c/download",
+      "kind": "rest",
+      "method": "GET",
+      "url": "{{catalog_local}}/v1/batch/019b22f1-b981-77e8-8698-79d2fcbf656c/download",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_841ec9a3-c36b-48fe-b657-5437818e8e89",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_62d2ff76-51bb-4f4b-9acf-7e6214f1c33d",
+      "tags": [],
+      "favorite": false,
+      "order": 7,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_41a93283-bcb1-43aa-93c4-0a31961c5c20",
+      "name": "sync",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{logistics_dev}}/v1/retailer/sync",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "{{auth_dev}}/oauth2/authorize",
+          "tokenUrl": "{{auth_dev}}/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_6071e703-b9fa-4ebf-8d28-781069b74239",
+      "tags": [],
+      "favorite": false,
+      "order": 8,
+      "createdAt": 1787933440276,
+      "updatedAt": 1787933440276
+    },
+    {
+      "id": "req_7c1aa308-4a52-4e97-8c8d-799f9f335da5",
+      "name": "https://staging-legacy.routeasy.com.br/depots",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://staging-legacy.routeasy.com.br/depots",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "id": "kv_67190002-d6e8-40c3-9533-7fbb2a524d20",
+          "enabled": true,
+          "key": "api_key",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTliOTYzNTVjYTExM2VkOWY0ZmFiYSIsInRpbWVzdGFtcCI6MTczODc2MjgxNDY3NCwibWVtYmVyX2lkIjoiNjdhMzZhM2U0ZTVjMWMwMDEzOTFlNDM4In0.Q3AJWG45hWkU0O1Expn_Rkjqn-iZrUYCnNCWYJ3bn5E",
+          "description": ""
+        }
+      ],
+      "headers": [
+        {
+          "id": "kv_17f9c46b-e73f-473e-a9c7-6e19a65a3a55",
+          "enabled": false,
+          "key": "Authorization",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTliOTYzNTVjYTExM2VkOWY0ZmFiYSIsInRpbWVzdGFtcCI6MTczODc2MjgxNDY3NCwibWVtYmVyX2lkIjoiNjdhMzZhM2U0ZTVjMWMwMDEzOTFlNDM4In0.Q3AJWG45hWkU0O1Expn_Rkjqn-iZrUYCnNCWYJ3bn5E",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "none",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_6071e703-b9fa-4ebf-8d28-781069b74239",
+      "tags": [],
+      "favorite": false,
+      "order": 9,
+      "createdAt": 1787933440276,
+      "updatedAt": 1787933440276
+    },
+    {
+      "id": "req_8aeb4d82-5659-470b-bf5b-4d6f189bd307",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "{{catalog_local}}/v1/city/019bc726-90e4-711f-90bb-f4e7ad820b92",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_fe69b4b3-e9bb-4b0a-8644-acedf913d219",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        },
+        {
+          "id": "kv_fe369c09-3517-4bdd-94dc-3599f18e9633",
+          "enabled": true,
+          "key": "Accept-Language",
+          "value": "pt-BR",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_6fc2cc35-4a58-47dc-b82e-282444581abc",
+      "tags": [],
+      "favorite": false,
+      "order": 9,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_0e1a16fb-800c-4ed7-8c2a-ceea5f53f848",
+      "name": "Untitled Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "none",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_9f3c9843-50bd-4926-9f04-2681fce8deba",
+      "tags": [],
+      "favorite": false,
+      "order": 10,
+      "createdAt": 1787933440276,
+      "updatedAt": 1787933440276
+    },
+    {
+      "id": "req_d8ca5a9d-4af3-47db-8ec3-4fff98bf4573",
+      "name": "Create",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{catalog_local}}/v1/city",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_268de2a4-6647-4d5f-a0c5-d55852a3b118",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"Cidade Teste\",\n    \"time_zone\": \"America/Sao_Paulo\",\n    \"installments\": 12,\n    \"daylight_saving_time\": false,\n    \"delivery_time\": 3,\n    \"administrative_level1_value\": \"Estado Inexistente XYZ\",\n    \"administrative_level2_value\": \"São Paulo\",\n    \"card_flags\": [\n        \"VISA\",\n        \"MASTERCARD\"\n    ],\n    \"payment_types\": [\n        \"CREDITCARD\",\n        \"PIX\"\n    ]\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "{{auth_dev}}/oauth2/authorize",
+          "tokenUrl": "{{auth_dev}}/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_6fc2cc35-4a58-47dc-b82e-282444581abc",
+      "tags": [],
+      "favorite": false,
+      "order": 10,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_6af9232a-d5fc-458f-bb00-9135ab83f370",
+      "name": "Untitled Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "none",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_9f3c9843-50bd-4926-9f04-2681fce8deba",
+      "tags": [],
+      "favorite": false,
+      "order": 11,
+      "createdAt": 1787933440276,
+      "updatedAt": 1787933440276
+    },
+    {
+      "id": "req_7c7be93c-a070-46dd-bc86-ecb55045f420",
+      "name": "Reindex",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{catalog_dev}}/v1/entity/_reindex",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_dabbf7ea-3f9f-42eb-a460-e04f8819a5e6",
+          "enabled": false,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "{{auth_dev}}/oauth2/authorize",
+          "tokenUrl": "{{auth_dev}}/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_e6142773-a9f0-4bdf-9b96-094df78d661b",
+      "tags": [],
+      "favorite": false,
+      "order": 12,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_4639df31-5ee3-4de9-9778-c9750c7ea6f0",
+      "name": "Catalog search",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{catalog_local}}/v1/entity/_search",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"organization_id\": \"a9e55b85-b5bb-4c1d-af13-1c73267cae26\",\n    \"query\": \"FIAT UNO\"\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_e6142773-a9f0-4bdf-9b96-094df78d661b",
+      "tags": [],
+      "favorite": false,
+      "order": 13,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_656c71f7-188d-4568-a07d-dc9708dd0bb5",
+      "name": "City search",
+      "kind": "rest",
+      "method": "GET",
+      "url": "{{catalog_dev}}/public/v1/cities-search/_search",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "id": "kv_e55bacb2-9b0c-40c8-8837-dd6ca853af3b",
+          "enabled": true,
+          "key": "query",
+          "value": "São",
+          "description": ""
+        }
+      ],
+      "headers": [
+        {
+          "id": "kv_9d1291f3-4703-45d8-92a3-b155133fcad4",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_e6142773-a9f0-4bdf-9b96-094df78d661b",
+      "tags": [],
+      "favorite": false,
+      "order": 14,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_1a20f3bf-a0e1-4de5-8f99-fe51ca7d7314",
+      "name": "city reindex",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{catalog_dev}}/v1/cities-search/_reindex",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "{{auth_dev}}/oauth2/authorize",
+          "tokenUrl": "{{auth_dev}}/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_e6142773-a9f0-4bdf-9b96-094df78d661b",
+      "tags": [],
+      "favorite": false,
+      "order": 15,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_965317b5-44ec-4be4-a491-2a60002e0cfd",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "POST",
+      "url": "{{catalog_local}}/v1/categories",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [
+        {
+          "id": "kv_fa0c0b51-4c69-4a9e-ba6e-09ea36927b67",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"BATERIA\",\n    \"description\": \"Categoria para Baterias\",\n    \"fields\": [\n        {\n            \"name\": \"Amperagem\",\n            \"type\": \"NUMBER\",\n            \"required\": true\n        },\n        {\n            \"name\": \"Garantia\",\n            \"type\": \"NUMBER\",\n            \"required\": true\n        },\n        {\n            \"name\": \"CCA (Corrente de Arranque a Frio)\",\n            \"type\": \"NUMBER\",\n            \"required\": true\n        },\n        {\n            \"name\": \"Comprimento (MM)\",\n            \"type\": \"NUMBER\",\n            \"required\": true\n        },\n        {\n            \"name\": \"Altura (MM)\",\n            \"type\": \"NUMBER\",\n            \"required\": true\n        },\n        {\n            \"name\": \"Largura (MM)\",\n            \"type\": \"NUMBER\",\n            \"required\": true\n        },\n        {\n            \"name\": \"Peso (KG)\",\n            \"type\": \"NUMBER\",\n            \"required\": true\n        },\n        {\n            \"name\": \"Tecnologia\",\n            \"type\": \"SIMPLE_LIST\",\n            \"required\": true,\n            \"list_values\": [\n                \"CONVENCIONAL\",\n                \"AGM\",\n                \"EFB\"\n            ]\n        },\n        {\n            \"name\": \"Mercado\",\n            \"type\": \"SIMPLE_LIST\",\n            \"required\": true,\n            \"list_values\": [\n                \"NACIONAL\",\n                \"INTERNACIONAL\"\n            ]\n        }\n    ]\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "{{auth_dev}}/oauth2/authorize",
+          "tokenUrl": "{{auth_dev}}/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_fedc0679-e26c-4393-b145-6d597d3c801b",
+      "tags": [],
+      "favorite": false,
+      "order": 17,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_db7a13de-11ef-475d-8082-54fe70bc3a3f",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "POST",
+      "url": "localhost:8080/v1/category",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"Carro\",\n    \"description\": \"veiculo de trafego\",\n    \"fields\":[\n        {\n            \"name\": \"Marca\",\n            \"type\": \"TEXT\"\n        },\n                {\n            \"name\": \"Nome\",\n            \"type\": \"TEXT\"\n        }\n    ]\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "tags": [],
+      "favorite": false,
+      "order": 18,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_cc5d5e66-fb40-4ebf-a815-2189858e6ab6",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://namf.tdsc.dev/api/catalog/v1/products",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "id": "kv_450d0aa7-188b-4c66-9215-1a28de34757f",
+          "enabled": true,
+          "key": "page",
+          "value": "0",
+          "description": ""
+        },
+        {
+          "id": "kv_7e9aa46f-d92b-448c-8f30-c62ca26e3f2d",
+          "enabled": true,
+          "key": "size",
+          "value": "5",
+          "description": ""
+        },
+        {
+          "id": "kv_79d4b28c-3f70-4053-b499-eea803063adc",
+          "enabled": true,
+          "key": "sort",
+          "value": "updatedAt%2CDESC",
+          "description": ""
+        }
+      ],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "tags": [],
+      "favorite": false,
+      "order": 19,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_ef0ff79d-9653-4ea7-8615-b4ca63dee667",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "POST",
+      "url": "https://namf.tdsc.dev/api/catalog/v1/price/variation",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "json",
+        "json": "{\n    \"name\": \"Fiado\",\n    \"description\": \"Devo e não nego, pago quando puder\",\n    \"origins\": [\n        \"Phone\"\n    ],\n    \"variation_type\": \"PERCENTAGE\",\n    \"payment_types\": [\n        \"CASH\"\n    ],\n    \"periods\": {\n        \"days_of_week\": [\"MONDAY\"],\n        \"start_date\": \"2025-09-16\",\n        \"end_date\": \"2025-09-30\"\n    }\n    \"periods\": {\n        \"daysOfWeek\": [],\n        \"startDate\": \"2025-09-16\",\n        \"endDate\": \"2025-09-30\"\n    }\n}",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "tags": [],
+      "favorite": false,
+      "order": 20,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_b758dcdd-19e6-48df-b51b-7bd9203c4057",
+      "name": "New Request Copy",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "tags": [],
+      "favorite": false,
+      "order": 21,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_626ee6d5-9872-49d6-8055-d78085921f18",
+      "name": "https://namf.tdsc.dev/api/catalog/v1/price?page=0&size=500&sort=productName%2CASC",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://namf.tdsc.dev/api/catalog/v1/price",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "id": "kv_8710329d-ada3-407d-b4df-fa9f8ce07c58",
+          "enabled": true,
+          "key": "page",
+          "value": "0",
+          "description": ""
+        },
+        {
+          "id": "kv_2a7c5654-66b8-4e46-828f-6986a862cc18",
+          "enabled": true,
+          "key": "size",
+          "value": "500",
+          "description": ""
+        },
+        {
+          "id": "kv_04b46aa5-ff3f-4c77-9a24-25e6754b74a7",
+          "enabled": true,
+          "key": "sort",
+          "value": "productName%2CASC",
+          "description": ""
+        }
+      ],
+      "headers": [
+        {
+          "id": "kv_e49cbd77-6f15-40f2-bfc0-2ed4b5a8a10f",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "tags": [],
+      "favorite": false,
+      "order": 22,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_52086e01-5623-4dd7-adfb-aa3a215b3fe7",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "http://localhost:8082/v1/relationship",
+      "pathParams": [],
+      "queryParams": [
+        {
+          "id": "kv_1e17c159-5a3d-4be0-8371-a17d1283d8fd",
+          "enabled": true,
+          "key": "page",
+          "value": "0",
+          "description": ""
+        },
+        {
+          "id": "kv_dc656616-073f-42f7-8f56-185211763fd6",
+          "enabled": true,
+          "key": "size",
+          "value": "5",
+          "description": ""
+        },
+        {
+          "id": "kv_a2f91076-775c-49dd-84d6-2c5237343f3c",
+          "enabled": true,
+          "key": "sort",
+          "value": "updatedAt%2CDESC",
+          "description": ""
+        }
+      ],
+      "headers": [
+        {
+          "id": "kv_9dd09081-e189-4d3f-9e35-6a893a9fe0ae",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "a9e55b85-b5bb-4c1d-af13-1c73267cae26",
+          "description": ""
+        }
+      ],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "tags": [],
+      "favorite": false,
+      "order": 23,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_a54d14d3-d6fe-4e94-8825-6016303fdeb8",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://namf.tdsc.dev/api/logistics/v1/schedule",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "oauth2",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
+          "refreshUrl": "",
+          "clientId": "frontend-client",
+          "clientSecretRef": "",
+          "scopes": "profile openid",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "tags": [],
+      "favorite": false,
+      "order": 24,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
+    },
+    {
+      "id": "req_5f06e933-fb7a-4485-92cc-209a73a8fbbc",
+      "name": "New Request",
+      "kind": "rest",
+      "method": "GET",
+      "url": "https://",
+      "pathParams": [],
+      "queryParams": [],
+      "headers": [],
+      "body": {
+        "mode": "none",
+        "json": "",
+        "raw": "",
+        "rawContentType": "text/plain",
+        "form": [],
+        "multipart": [],
+        "binaryPath": ""
+      },
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "tls": {
+        "rejectUnauthorized": true,
+        "caPath": "",
+        "certPath": "",
+        "keyPath": "",
+        "pfxPath": "",
+        "passphraseRef": ""
+      },
+      "settings": {
+        "followRedirects": true,
+        "maxRedirects": 10,
+        "timeoutMs": 30000
+      },
+      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
+      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "tags": [],
+      "favorite": false,
+      "order": 25,
+      "createdAt": 1787933403760,
+      "updatedAt": 1787933403760
     },
     {
       "id": "req_ea264a71-eabb-4ebb-87bc-e65ec67b32ce",
