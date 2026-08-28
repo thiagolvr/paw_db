@@ -91,7 +91,7 @@
           "autoRefresh": true
         }
       },
-      "order": 1
+      "order": 2
     },
     {
       "id": "col_f6e5e01d-b7ca-48bf-961c-bac46db7fc04",
@@ -134,7 +134,7 @@
           "autoRefresh": true
         }
       },
-      "order": 2
+      "order": 1
     }
   ],
   "folders": [
