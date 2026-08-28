@@ -49,6 +49,92 @@
         }
       },
       "order": 0
+    },
+    {
+      "id": "col_c077b57f-98ce-43fb-aa32-a35a8f0287ec",
+      "workspaceId": "ws_9365513f-8819-4de7-95e2-603fa62bb669",
+      "name": "Strateegia",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 1
+    },
+    {
+      "id": "col_f6e5e01d-b7ca-48bf-961c-bac46db7fc04",
+      "workspaceId": "ws_9365513f-8819-4de7-95e2-603fa62bb669",
+      "name": "Moura",
+      "auth": {
+        "type": "inherit",
+        "presetId": "",
+        "bearer": {
+          "tokenRef": "",
+          "prefix": "Bearer"
+        },
+        "basic": {
+          "username": "",
+          "passwordRef": ""
+        },
+        "apiKey": {
+          "name": "",
+          "location": "header",
+          "valueRef": ""
+        },
+        "oauth2": {
+          "grant": "authorization_code",
+          "authorizeUrl": "",
+          "tokenUrl": "",
+          "refreshUrl": "",
+          "clientId": "",
+          "clientSecretRef": "",
+          "scopes": "",
+          "audience": "",
+          "usePkce": true,
+          "redirectMode": "builtin",
+          "redirectUri": "http://127.0.0.1:8788/callback",
+          "loopbackPort": 8788,
+          "clientAuth": "body",
+          "headerPrefix": "Bearer",
+          "extraAuthParams": [],
+          "extraTokenParams": [],
+          "tokenRef": "",
+          "autoRefresh": true
+        }
+      },
+      "order": 2
     }
   ],
   "folders": [
