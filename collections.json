@@ -2,7 +2,7 @@
   "workspaces": [
     {
       "id": "ws_9365513f-8819-4de7-95e2-603fa62bb669",
-      "name": "Personal",
+      "name": "Work",
       "order": 0
     }
   ],
@@ -49,49 +49,6 @@
         }
       },
       "order": 0
-    },
-    {
-      "id": "col_a65cf059-dd67-48b5-b9f9-9f42767fd4c2",
-      "workspaceId": "ws_9365513f-8819-4de7-95e2-603fa62bb669",
-      "name": "Teste 2",
-      "auth": {
-        "type": "inherit",
-        "presetId": "",
-        "bearer": {
-          "tokenRef": "",
-          "prefix": "Bearer"
-        },
-        "basic": {
-          "username": "",
-          "passwordRef": ""
-        },
-        "apiKey": {
-          "name": "",
-          "location": "header",
-          "valueRef": ""
-        },
-        "oauth2": {
-          "grant": "authorization_code",
-          "authorizeUrl": "",
-          "tokenUrl": "",
-          "refreshUrl": "",
-          "clientId": "",
-          "clientSecretRef": "",
-          "scopes": "",
-          "audience": "",
-          "usePkce": true,
-          "redirectMode": "builtin",
-          "redirectUri": "http://127.0.0.1:8788/callback",
-          "loopbackPort": 8788,
-          "clientAuth": "body",
-          "headerPrefix": "Bearer",
-          "extraAuthParams": [],
-          "extraTokenParams": [],
-          "tokenRef": "",
-          "autoRefresh": true
-        }
-      },
-      "order": 1
     }
   ],
   "folders": [
@@ -270,94 +227,6 @@
         }
       },
       "order": 0
-    },
-    {
-      "id": "fld_d1682fbb-5108-42fc-ace0-68f352c5933a",
-      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "name": "Getting Started",
-      "parentId": null,
-      "auth": {
-        "type": "inherit",
-        "presetId": "",
-        "bearer": {
-          "tokenRef": "",
-          "prefix": "Bearer"
-        },
-        "basic": {
-          "username": "",
-          "passwordRef": ""
-        },
-        "apiKey": {
-          "name": "",
-          "location": "header",
-          "valueRef": ""
-        },
-        "oauth2": {
-          "grant": "authorization_code",
-          "authorizeUrl": "",
-          "tokenUrl": "",
-          "refreshUrl": "",
-          "clientId": "",
-          "clientSecretRef": "",
-          "scopes": "",
-          "audience": "",
-          "usePkce": true,
-          "redirectMode": "loopback",
-          "redirectUri": "http://127.0.0.1:8788/callback",
-          "loopbackPort": 8788,
-          "clientAuth": "body",
-          "headerPrefix": "Bearer",
-          "extraAuthParams": [],
-          "extraTokenParams": [],
-          "tokenRef": "",
-          "autoRefresh": true
-        }
-      },
-      "order": 0
-    },
-    {
-      "id": "fld_54606fc5-3918-4693-ab1b-202460ae42ac",
-      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "name": "Teste 3",
-      "parentId": "fld_d1682fbb-5108-42fc-ace0-68f352c5933a",
-      "auth": {
-        "type": "inherit",
-        "presetId": "",
-        "bearer": {
-          "tokenRef": "",
-          "prefix": "Bearer"
-        },
-        "basic": {
-          "username": "",
-          "passwordRef": ""
-        },
-        "apiKey": {
-          "name": "",
-          "location": "header",
-          "valueRef": ""
-        },
-        "oauth2": {
-          "grant": "authorization_code",
-          "authorizeUrl": "",
-          "tokenUrl": "",
-          "refreshUrl": "",
-          "clientId": "",
-          "clientSecretRef": "",
-          "scopes": "",
-          "audience": "",
-          "usePkce": true,
-          "redirectMode": "builtin",
-          "redirectUri": "http://127.0.0.1:8788/callback",
-          "loopbackPort": 8788,
-          "clientAuth": "body",
-          "headerPrefix": "Bearer",
-          "extraAuthParams": [],
-          "extraTokenParams": [],
-          "tokenRef": "",
-          "autoRefresh": true
-        }
-      },
-      "order": 1
     },
     {
       "id": "fld_b0c7c391-5213-4236-a929-c541a565c265",
@@ -1040,82 +909,6 @@
       "order": 0,
       "createdAt": 1787933430680,
       "updatedAt": 1787933430680
-    },
-    {
-      "id": "req_b9cbf685-229d-42c2-a512-385e4264ccfe",
-      "name": "Example: httpbin JSON",
-      "kind": "rest",
-      "method": "GET",
-      "url": "https://httpbin.org/json",
-      "pathParams": [],
-      "queryParams": [],
-      "headers": [],
-      "body": {
-        "mode": "none",
-        "json": "",
-        "raw": "",
-        "rawContentType": "text/plain",
-        "form": [],
-        "multipart": [],
-        "binaryPath": ""
-      },
-      "auth": {
-        "type": "inherit",
-        "presetId": "",
-        "bearer": {
-          "tokenRef": "",
-          "prefix": "Bearer"
-        },
-        "basic": {
-          "username": "",
-          "passwordRef": ""
-        },
-        "apiKey": {
-          "name": "",
-          "location": "header",
-          "valueRef": ""
-        },
-        "oauth2": {
-          "grant": "authorization_code",
-          "authorizeUrl": "",
-          "tokenUrl": "",
-          "refreshUrl": "",
-          "clientId": "",
-          "clientSecretRef": "",
-          "scopes": "",
-          "audience": "",
-          "usePkce": true,
-          "redirectMode": "loopback",
-          "redirectUri": "http://127.0.0.1:8788/callback",
-          "loopbackPort": 8788,
-          "clientAuth": "body",
-          "headerPrefix": "Bearer",
-          "extraAuthParams": [],
-          "extraTokenParams": [],
-          "tokenRef": "",
-          "autoRefresh": true
-        }
-      },
-      "tls": {
-        "rejectUnauthorized": true,
-        "caPath": "",
-        "certPath": "",
-        "keyPath": "",
-        "pfxPath": "",
-        "passphraseRef": ""
-      },
-      "settings": {
-        "followRedirects": true,
-        "maxRedirects": 10,
-        "timeoutMs": 30000
-      },
-      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "folderId": "fld_d1682fbb-5108-42fc-ace0-68f352c5933a",
-      "tags": [],
-      "favorite": false,
-      "order": 0,
-      "createdAt": 1787878409063,
-      "updatedAt": 1787878409063
     },
     {
       "id": "req_bc949acd-25ca-4b8e-b20c-4da7eba8c2b1",
@@ -4104,7 +3897,7 @@
     },
     {
       "id": "req_965317b5-44ec-4be4-a491-2a60002e0cfd",
-      "name": "New Request",
+      "name": "Get Categories",
       "kind": "rest",
       "method": "POST",
       "url": "{{catalog_local}}/v1/categories",
@@ -4184,87 +3977,11 @@
       "favorite": false,
       "order": 17,
       "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
-    },
-    {
-      "id": "req_db7a13de-11ef-475d-8082-54fe70bc3a3f",
-      "name": "New Request",
-      "kind": "rest",
-      "method": "POST",
-      "url": "localhost:8080/v1/category",
-      "pathParams": [],
-      "queryParams": [],
-      "headers": [],
-      "body": {
-        "mode": "json",
-        "json": "{\n    \"name\": \"Carro\",\n    \"description\": \"veiculo de trafego\",\n    \"fields\":[\n        {\n            \"name\": \"Marca\",\n            \"type\": \"TEXT\"\n        },\n                {\n            \"name\": \"Nome\",\n            \"type\": \"TEXT\"\n        }\n    ]\n}",
-        "raw": "",
-        "rawContentType": "text/plain",
-        "form": [],
-        "multipart": [],
-        "binaryPath": ""
-      },
-      "auth": {
-        "type": "inherit",
-        "presetId": "",
-        "bearer": {
-          "tokenRef": "",
-          "prefix": "Bearer"
-        },
-        "basic": {
-          "username": "",
-          "passwordRef": ""
-        },
-        "apiKey": {
-          "name": "",
-          "location": "header",
-          "valueRef": ""
-        },
-        "oauth2": {
-          "grant": "authorization_code",
-          "authorizeUrl": "",
-          "tokenUrl": "",
-          "refreshUrl": "",
-          "clientId": "",
-          "clientSecretRef": "",
-          "scopes": "",
-          "audience": "",
-          "usePkce": true,
-          "redirectMode": "builtin",
-          "redirectUri": "http://127.0.0.1:8788/callback",
-          "loopbackPort": 8788,
-          "clientAuth": "body",
-          "headerPrefix": "Bearer",
-          "extraAuthParams": [],
-          "extraTokenParams": [],
-          "tokenRef": "",
-          "autoRefresh": true
-        }
-      },
-      "tls": {
-        "rejectUnauthorized": true,
-        "caPath": "",
-        "certPath": "",
-        "keyPath": "",
-        "pfxPath": "",
-        "passphraseRef": ""
-      },
-      "settings": {
-        "followRedirects": true,
-        "maxRedirects": 10,
-        "timeoutMs": 30000
-      },
-      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
-      "tags": [],
-      "favorite": false,
-      "order": 18,
-      "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
+      "updatedAt": 1787933983660
     },
     {
       "id": "req_cc5d5e66-fb40-4ebf-a815-2189858e6ab6",
-      "name": "New Request",
+      "name": "Get Products",
       "kind": "rest",
       "method": "GET",
       "url": "https://namf.tdsc.dev/api/catalog/v1/products",
@@ -4304,7 +4021,7 @@
       },
       "auth": {
         "type": "oauth2",
-        "presetId": "",
+        "presetId": "preset_965805fb-7765-487e-937d-0c1f6a65bb2a",
         "bearer": {
           "tokenRef": "",
           "prefix": "Bearer"
@@ -4353,16 +4070,16 @@
         "timeoutMs": 30000
       },
       "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "folderId": "fld_fedc0679-e26c-4393-b145-6d597d3c801b",
       "tags": [],
       "favorite": false,
       "order": 19,
       "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
+      "updatedAt": 1787933971690
     },
     {
       "id": "req_ef0ff79d-9653-4ea7-8615-b4ca63dee667",
-      "name": "New Request",
+      "name": "Get Price Variations",
       "kind": "rest",
       "method": "POST",
       "url": "https://namf.tdsc.dev/api/catalog/v1/price/variation",
@@ -4429,92 +4146,16 @@
         "timeoutMs": 30000
       },
       "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "folderId": "fld_fedc0679-e26c-4393-b145-6d597d3c801b",
       "tags": [],
       "favorite": false,
       "order": 20,
       "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
-    },
-    {
-      "id": "req_b758dcdd-19e6-48df-b51b-7bd9203c4057",
-      "name": "New Request Copy",
-      "kind": "rest",
-      "method": "GET",
-      "url": "https://",
-      "pathParams": [],
-      "queryParams": [],
-      "headers": [],
-      "body": {
-        "mode": "none",
-        "json": "",
-        "raw": "",
-        "rawContentType": "text/plain",
-        "form": [],
-        "multipart": [],
-        "binaryPath": ""
-      },
-      "auth": {
-        "type": "inherit",
-        "presetId": "",
-        "bearer": {
-          "tokenRef": "",
-          "prefix": "Bearer"
-        },
-        "basic": {
-          "username": "",
-          "passwordRef": ""
-        },
-        "apiKey": {
-          "name": "",
-          "location": "header",
-          "valueRef": ""
-        },
-        "oauth2": {
-          "grant": "authorization_code",
-          "authorizeUrl": "",
-          "tokenUrl": "",
-          "refreshUrl": "",
-          "clientId": "",
-          "clientSecretRef": "",
-          "scopes": "",
-          "audience": "",
-          "usePkce": true,
-          "redirectMode": "builtin",
-          "redirectUri": "http://127.0.0.1:8788/callback",
-          "loopbackPort": 8788,
-          "clientAuth": "body",
-          "headerPrefix": "Bearer",
-          "extraAuthParams": [],
-          "extraTokenParams": [],
-          "tokenRef": "",
-          "autoRefresh": true
-        }
-      },
-      "tls": {
-        "rejectUnauthorized": true,
-        "caPath": "",
-        "certPath": "",
-        "keyPath": "",
-        "pfxPath": "",
-        "passphraseRef": ""
-      },
-      "settings": {
-        "followRedirects": true,
-        "maxRedirects": 10,
-        "timeoutMs": 30000
-      },
-      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
-      "tags": [],
-      "favorite": false,
-      "order": 21,
-      "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
+      "updatedAt": 1787934096382
     },
     {
       "id": "req_626ee6d5-9872-49d6-8055-d78085921f18",
-      "name": "https://namf.tdsc.dev/api/catalog/v1/price?page=0&size=500&sort=productName%2CASC",
+      "name": "Get Prices",
       "kind": "rest",
       "method": "GET",
       "url": "https://namf.tdsc.dev/api/catalog/v1/price",
@@ -4611,16 +4252,16 @@
         "timeoutMs": 30000
       },
       "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "folderId": "fld_fedc0679-e26c-4393-b145-6d597d3c801b",
       "tags": [],
       "favorite": false,
       "order": 22,
       "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
+      "updatedAt": 1787934115146
     },
     {
       "id": "req_52086e01-5623-4dd7-adfb-aa3a215b3fe7",
-      "name": "New Request",
+      "name": "Get Product Relationships",
       "kind": "rest",
       "method": "GET",
       "url": "http://localhost:8082/v1/relationship",
@@ -4717,16 +4358,16 @@
         "timeoutMs": 30000
       },
       "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "folderId": "fld_fedc0679-e26c-4393-b145-6d597d3c801b",
       "tags": [],
       "favorite": false,
       "order": 23,
       "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
+      "updatedAt": 1787934207379
     },
     {
       "id": "req_a54d14d3-d6fe-4e94-8825-6016303fdeb8",
-      "name": "New Request",
+      "name": "Get Schedules",
       "kind": "rest",
       "method": "GET",
       "url": "https://namf.tdsc.dev/api/logistics/v1/schedule",
@@ -4793,88 +4434,12 @@
         "timeoutMs": 30000
       },
       "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
+      "folderId": "fld_9f3c9843-50bd-4926-9f04-2681fce8deba",
       "tags": [],
       "favorite": false,
       "order": 24,
       "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
-    },
-    {
-      "id": "req_5f06e933-fb7a-4485-92cc-209a73a8fbbc",
-      "name": "New Request",
-      "kind": "rest",
-      "method": "GET",
-      "url": "https://",
-      "pathParams": [],
-      "queryParams": [],
-      "headers": [],
-      "body": {
-        "mode": "none",
-        "json": "",
-        "raw": "",
-        "rawContentType": "text/plain",
-        "form": [],
-        "multipart": [],
-        "binaryPath": ""
-      },
-      "auth": {
-        "type": "inherit",
-        "presetId": "",
-        "bearer": {
-          "tokenRef": "",
-          "prefix": "Bearer"
-        },
-        "basic": {
-          "username": "",
-          "passwordRef": ""
-        },
-        "apiKey": {
-          "name": "",
-          "location": "header",
-          "valueRef": ""
-        },
-        "oauth2": {
-          "grant": "authorization_code",
-          "authorizeUrl": "",
-          "tokenUrl": "",
-          "refreshUrl": "",
-          "clientId": "",
-          "clientSecretRef": "",
-          "scopes": "",
-          "audience": "",
-          "usePkce": true,
-          "redirectMode": "builtin",
-          "redirectUri": "http://127.0.0.1:8788/callback",
-          "loopbackPort": 8788,
-          "clientAuth": "body",
-          "headerPrefix": "Bearer",
-          "extraAuthParams": [],
-          "extraTokenParams": [],
-          "tokenRef": "",
-          "autoRefresh": true
-        }
-      },
-      "tls": {
-        "rejectUnauthorized": true,
-        "caPath": "",
-        "certPath": "",
-        "keyPath": "",
-        "pfxPath": "",
-        "passphraseRef": ""
-      },
-      "settings": {
-        "followRedirects": true,
-        "maxRedirects": 10,
-        "timeoutMs": 30000
-      },
-      "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "folderId": "fld_2550234c-cbf8-4606-bd5f-565a4c22387c",
-      "tags": [],
-      "favorite": false,
-      "order": 25,
-      "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
+      "updatedAt": 1787934284572
     },
     {
       "id": "req_ea264a71-eabb-4ebb-87bc-e65ec67b32ce",
@@ -4953,88 +4518,12 @@
         "timeoutMs": 30000
       },
       "collectionId": "col_d230c207-0b18-4853-a952-4cbe33a60fcc",
-      "folderId": null,
+      "folderId": "fld_e6142773-a9f0-4bdf-9b96-094df78d661b",
       "tags": [],
       "favorite": false,
       "order": 1787878650986,
       "createdAt": 1787878650986,
       "updatedAt": 1787918795352
-    },
-    {
-      "id": "req_92f1ddc5-6d16-421f-b3c8-59457c8ae325",
-      "name": "http",
-      "kind": "rest",
-      "method": "GET",
-      "url": "http",
-      "pathParams": [],
-      "queryParams": [],
-      "headers": [],
-      "body": {
-        "mode": "none",
-        "json": "",
-        "raw": "",
-        "rawContentType": "text/plain",
-        "form": [],
-        "multipart": [],
-        "binaryPath": ""
-      },
-      "auth": {
-        "type": "inherit",
-        "presetId": "",
-        "bearer": {
-          "tokenRef": "",
-          "prefix": "Bearer"
-        },
-        "basic": {
-          "username": "",
-          "passwordRef": ""
-        },
-        "apiKey": {
-          "name": "",
-          "location": "header",
-          "valueRef": ""
-        },
-        "oauth2": {
-          "grant": "authorization_code",
-          "authorizeUrl": "",
-          "tokenUrl": "",
-          "refreshUrl": "",
-          "clientId": "",
-          "clientSecretRef": "",
-          "scopes": "",
-          "audience": "",
-          "usePkce": true,
-          "redirectMode": "builtin",
-          "redirectUri": "http://127.0.0.1:8788/callback",
-          "loopbackPort": 8788,
-          "clientAuth": "body",
-          "headerPrefix": "Bearer",
-          "extraAuthParams": [],
-          "extraTokenParams": [],
-          "tokenRef": "",
-          "autoRefresh": true
-        }
-      },
-      "tls": {
-        "rejectUnauthorized": true,
-        "caPath": "",
-        "certPath": "",
-        "keyPath": "",
-        "pfxPath": "",
-        "passphraseRef": ""
-      },
-      "settings": {
-        "followRedirects": true,
-        "maxRedirects": 10,
-        "timeoutMs": 30000
-      },
-      "collectionId": "col_a65cf059-dd67-48b5-b9f9-9f42767fd4c2",
-      "folderId": null,
-      "tags": [],
-      "favorite": false,
-      "order": 1787886643374,
-      "createdAt": 1787886643374,
-      "updatedAt": 1787886920425
     }
   ],
   "activeWorkspaceId": "ws_9365513f-8819-4de7-95e2-603fa62bb669"
