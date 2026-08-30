@@ -1,13 +1,13 @@
 {
   "format": "paw-sync",
   "version": 2,
-  "revision": "48d3d0e6-62f2-45b1-aa92-0a2347035bf5",
-  "updatedAt": "2026-08-28T17:32:28.124Z",
+  "revision": "3e1ac2a6-3f3e-4f8b-b996-481e9b11a8a2",
+  "updatedAt": "2026-08-30T04:48:35.490Z",
   "device": {
     "id": "f0409990-4736-4bfc-b025-628b401780aa",
     "name": "Thiagos-MacBook-Air.local"
   },
-  "contentHash": "c9260a1f43dc06feb13bb555e0935b66",
+  "contentHash": "733f23b2c84e5d159e3ae5b602773aa5",
   "files": [
     "collections.json",
     "environments.json",

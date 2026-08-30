@@ -3936,8 +3936,8 @@
         "binaryPath": ""
       },
       "auth": {
-        "type": "inherit",
-        "presetId": "",
+        "type": "oauth2",
+        "presetId": "preset_965805fb-7765-487e-937d-0c1f6a65bb2a",
         "bearer": {
           "tokenRef": "",
           "prefix": "Bearer"
@@ -3991,7 +3991,7 @@
       "favorite": false,
       "order": 2,
       "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
+      "updatedAt": 1788062999242
     },
     {
       "id": "req_1a20f3bf-a0e1-4de5-8f99-fe51ca7d7314",
