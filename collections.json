@@ -3746,7 +3746,7 @@
       "name": "Reindex",
       "kind": "rest",
       "method": "POST",
-      "url": "{{catalog_dev}}/v1/entity/_reindex",
+      "url": "https://namf.tdsc.dev/api/catalog/v1/entity/_reindex",
       "pathParams": [],
       "queryParams": [],
       "headers": [
@@ -3785,8 +3785,8 @@
         },
         "oauth2": {
           "grant": "authorization_code",
-          "authorizeUrl": "{{auth_dev}}/oauth2/authorize",
-          "tokenUrl": "{{auth_dev}}/oauth2/token",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
           "refreshUrl": "",
           "clientId": "frontend-client",
           "clientSecretRef": "",
@@ -3794,13 +3794,13 @@
           "audience": "",
           "usePkce": true,
           "redirectMode": "builtin",
-          "redirectUri": "http://127.0.0.1:8788/callback",
+          "redirectUri": "http://localhost:8080/authorized",
           "loopbackPort": 8788,
           "clientAuth": "body",
           "headerPrefix": "Bearer",
           "extraAuthParams": [],
           "extraTokenParams": [],
-          "tokenRef": "",
+          "tokenRef": "sec_f20784c9-d79e-4bac-8e7a-822636a2f13c",
           "autoRefresh": true
         }
       },
@@ -3823,7 +3823,7 @@
       "favorite": false,
       "order": 0,
       "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
+      "updatedAt": 1788215603208
     },
     {
       "id": "req_4639df31-5ee3-4de9-9778-c9750c7ea6f0",
@@ -3998,10 +3998,18 @@
       "name": "city reindex",
       "kind": "rest",
       "method": "POST",
-      "url": "{{catalog_dev}}/v1/cities-search/_reindex",
+      "url": "https://namf.tdsc.dev/api/catalog/v1/cities-search/_reindex",
       "pathParams": [],
       "queryParams": [],
-      "headers": [],
+      "headers": [
+        {
+          "id": "kv_44866508-0dce-43e4-982f-5b06c88ffd45",
+          "enabled": true,
+          "key": "x-org-id",
+          "value": "063cf056-81b3-4cda-b95f-246d5810cc7a",
+          "description": ""
+        }
+      ],
       "body": {
         "mode": "none",
         "json": "",
@@ -4029,8 +4037,8 @@
         },
         "oauth2": {
           "grant": "authorization_code",
-          "authorizeUrl": "{{auth_dev}}/oauth2/authorize",
-          "tokenUrl": "{{auth_dev}}/oauth2/token",
+          "authorizeUrl": "https://namf.tdsc.dev/api/authorization/oauth2/authorize",
+          "tokenUrl": "https://namf.tdsc.dev/api/authorization/oauth2/token",
           "refreshUrl": "",
           "clientId": "frontend-client",
           "clientSecretRef": "",
@@ -4038,13 +4046,13 @@
           "audience": "",
           "usePkce": true,
           "redirectMode": "builtin",
-          "redirectUri": "http://127.0.0.1:8788/callback",
+          "redirectUri": "http://localhost:8080/authorized",
           "loopbackPort": 8788,
           "clientAuth": "body",
           "headerPrefix": "Bearer",
           "extraAuthParams": [],
           "extraTokenParams": [],
-          "tokenRef": "",
+          "tokenRef": "sec_cf8eadf7-c512-4656-b6c5-3d3d1437ec1a",
           "autoRefresh": true
         }
       },
@@ -4067,7 +4075,7 @@
       "favorite": false,
       "order": 3,
       "createdAt": 1787933403760,
-      "updatedAt": 1787933403760
+      "updatedAt": 1788216331563
     },
     {
       "id": "req_965317b5-44ec-4be4-a491-2a60002e0cfd",
@@ -4697,7 +4705,7 @@
       "favorite": false,
       "order": 4,
       "createdAt": 1787878650986,
-      "updatedAt": 1787918795352
+      "updatedAt": 1788215850290
     }
   ],
   "activeWorkspaceId": "ws_9365513f-8819-4de7-95e2-603fa62bb669"
